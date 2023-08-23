@@ -1,0 +1,1 @@
+:after,:before,:root{--base-space:1rem;--multiplier-space-s:.875;--space-normal:var(--base-space);--space-s:calc(var(--base-space)*var(--multiplier-space-s))}

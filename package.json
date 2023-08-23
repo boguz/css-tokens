@@ -4,7 +4,7 @@
   "description": "A npm package offering a curated collection of CSS variables for effortless frontend development, enabling consistent design across UI components and swift global style adjustments",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss src/css-tockens.css --dir dist"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,22 @@
   },
   "homepage": "https://github.com/boguz/css-tokens#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.28",
+    "postcss-import": "^15.1.0",
     "stylelint": "^15.10.3",
-    "stylelint-config-standard": "^34.0.0"
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-csstree-validator": "^3.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "plugins": [
+      "stylelint-csstree-validator"
+    ],
+    "rules": {
+      "csstree/validator": true,
+      "rule-empty-line-before": null
+    }
   }
 }
