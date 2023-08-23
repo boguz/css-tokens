@@ -1,0 +1,27 @@
+{
+  "name": "css-tokens",
+  "version": "0.0.1",
+  "description": "A npm package offering a curated collection of CSS variables for effortless frontend development, enabling consistent design across UI components and swift global style adjustments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boguz/css-tokens.git"
+  },
+  "keywords": [
+    "css",
+    "variables",
+    "frontend",
+    "tokens",
+    "design",
+    "styles"
+  ],
+  "author": "LuisPato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boguz/css-tokens/issues"
+  },
+  "homepage": "https://github.com/boguz/css-tokens#readme"
+}
