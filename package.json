@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/boguz/css-tokens/issues"
   },
-  "homepage": "https://github.com/boguz/css-tokens#readme"
+  "homepage": "https://github.com/boguz/css-tokens#readme",
+  "devDependencies": {
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0"
+  }
 }
