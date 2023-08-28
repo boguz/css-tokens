@@ -1,0 +1,32 @@
+:root,
+::before,
+::after {
+    /*   BASE   */
+    --space-base: 1rem;
+
+    /*   MULTIPLIERS   */
+    --space-multiplier-xxxl: 6;
+    --space-multiplier-xxl: 4;
+    --space-multiplier-xl: 3;
+    --space-multiplier-l: 2;
+    --space-multiplier-m: 1.5;
+    --space-multiplier-s: .875;
+    --space-multiplier-xs: .75;
+    --space-multiplier-xxs: .5;
+    --space-multiplier-xxxs: .25;
+
+    /*   VARIABLES   */
+    --space-xxxl: calc(var(--space-base) * var(--space-multiplier-xxxl));
+    --space-xxl: calc(var(--space-base) * var(--space-multiplier-xxl));
+    --space-xl: calc(var(--space-base) * var(--space-multiplier-xl));
+    --space-l: calc(var(--space-base) * var(--space-multiplier-l));
+    --space-m: calc(var(--space-base) * var(--space-multiplier-m));
+    --space-normal: var(--space-base);
+    --space-s: calc(var(--space-base) * var(--space-multiplier-s));
+    --space-xs: calc(var(--space-base) * var(--space-multiplier-xs));
+    --space-xxs: calc(var(--space-base) * var(--space-multiplier-xxs));
+    --space-xxxs: calc(var(--space-base) * var(--space-multiplier-xxxs));
+    --space-2px: 2px;
+    --space-1px: 1px;
+    --space-0: 0;
+}

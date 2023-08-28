@@ -4,7 +4,7 @@
   "description": "A npm package offering a curated collection of CSS variables for effortless frontend development, enabling consistent design across UI components and swift global style adjustments",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/css-tockens.css --dir dist"
+    "build": "postcss src/css-tokens.css --dir dist"
   },
   "repository": {
     "type": "git",
@@ -40,7 +40,8 @@
     ],
     "rules": {
       "csstree/validator": true,
-      "rule-empty-line-before": null
+      "rule-empty-line-before": null,
+      "selector-class-pattern": null
     }
   }
 }

@@ -1,6 +1,0 @@
-:root,
-::before,
-::after {
-    --space-normal: var(--base-space);
-    --space-s: calc(var(--base-space) * var(--multiplier-space-s));
-}
