@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: var(--color-text);
 }
 
 html {
@@ -41,9 +42,8 @@ main {
 }
 
 .space-demo {
-    border: 1px solid red;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     gap: var(--space-s);
 }
 
@@ -146,6 +146,14 @@ main {
     background-color: var(--color-text);
 }
 
+.color-demo__circle--text-light {
+    background-color: var(--color-text-light);
+}
+
+.color-demo__circle--text-dark {
+    background-color: var(--color-text-dark);
+}
+
 .color-demo__circle--primary {
     background-color: var(--color-primary);
 }
@@ -184,4 +192,40 @@ main {
 
 .color-demo__circle--info {
     background-color: var(--color-info);
+}
+
+.font-size-normal {
+    font-size: var(--font-size-normal);
+}
+
+.font-size-s {
+    font-size: var(--font-size-s);
+}
+
+.font-size-xs {
+    font-size: var(--font-size-xs);
+}
+
+.font-size-xxs {
+    font-size: var(--font-size-xxs);
+}
+
+.font-size-m {
+    font-size: var(--font-size-m);
+}
+
+.font-size-l {
+    font-size: var(--font-size-l);
+}
+
+.font-size-xl {
+    font-size: var(--font-size-xl);
+}
+
+.font-size-xxl {
+    font-size: var(--font-size-xxl);
+}
+
+.font-size-xxxl {
+    font-size: var(--font-size-xxxl);
 }

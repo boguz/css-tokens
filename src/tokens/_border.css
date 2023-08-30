@@ -1,0 +1,15 @@
+:root,
+::before,
+::after {
+    /*   BORDER WIDTH   */
+    --border-width: 1px;
+
+    /*   BORDER STYLE   */
+    --border-style: solid;
+
+    /*   BORDER VARIABLES   */
+    --border-text: var(--border-width) var(--border-style) var(--color-text);
+    --border-primary: var(--border-width) var(--border-style) var(--color-primary);
+    --border-secondary: var(--border-width) var(--border-style) var(--color-secondary);
+    --border-bg: var(--border-width) var(--border-style) var(--color-bg);
+}

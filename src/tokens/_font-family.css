@@ -1,0 +1,7 @@
+:root,
+::before,
+::after {
+    --font-family-text: sans-serif;
+    --font-family-headlines: sans-serif;
+    --font-family-accent: monospace;
+}

@@ -1,0 +1,13 @@
+:root,
+::before,
+::after {
+    --shadow-color:  hsl(var(--color-text-h) var(--color-text-s) var(--color-text-l) / 10%);
+
+    /*   SHADOW VARIABLES   */
+    --shadow-l: 0px 25px 25px 5px var(--shadow-color), 0px 8px 16px -6px var(--shadow-color);
+    --shadow-m: 0 20px 25px -5px var(--shadow-color), 0 8px 10px -6px var(--shadow-color);
+    --shadow-normal: 0 10px 15px -3px var(--shadow-color), 0 4px 6px -4px var(--shadow-color);
+    --shadow-s: 0 1px 3px 0 var(--shadow-color), 0 1px 2px -1px var(--shadow-color);
+    --shadow-xs: 0 1px 2px 0 var(--shadow-color);
+    --shadow-inset: 0 0px 14px -8px var(--shadow-color) inset;
+}

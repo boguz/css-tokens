@@ -1,0 +1,27 @@
+:root,
+::before,
+::after {
+    /*   FONT SIYE BASE   */
+    --font-size-base: 1rem;
+
+    /*   FONT SIZE MODIFIERS   */
+    --font-size-multiplier-xxxl: 3;
+    --font-size-multiplier-xxl: 2.5;
+    --font-size-multiplier-xl: 2;
+    --font-size-multiplier-l: 1.5;
+    --font-size-multiplier-m: 1.25;
+    --font-size-multiplier-s: .875;
+    --font-size-multiplier-xs: .75;
+    --font-size-multiplier-xxs: .675;
+
+    /*   FONT SIZE VARIABLES   */
+    --font-size-xxxl: calc(var(--font-size-base) * var(--font-size-multiplier-xxxl));
+    --font-size-xxl: calc(var(--font-size-base) * var(--font-size-multiplier-xxl));
+    --font-size-xl: calc(var(--font-size-base) * var(--font-size-multiplier-xl));
+    --font-size-l: calc(var(--font-size-base) * var(--font-size-multiplier-l));
+    --font-size-m: calc(var(--font-size-base) * var(--font-size-multiplier-m));
+    --font-size-normal: var(--font-size-base);
+    --font-size-s: calc(var(--font-size-base) * var(--font-size-multiplier-s));
+    --font-size-xs: calc(var(--font-size-base) * var(--font-size-multiplier-xs));
+    --font-size-xxs: calc(var(--font-size-base) * var(--font-size-multiplier-xxs));
+    --font-size-xxxs: calc(var(--font-size-base) * var(--font-size-multiplier-xxxs));}

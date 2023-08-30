@@ -1,0 +1,12 @@
+:root,
+::before,
+::after {
+    --outline-width: 2px;
+    --outline-style: solid;
+    --outline-color: var(--color-primary);
+    --outline-offset: var(--space-2px);
+
+    /*   OUTLINE VARIABLES   */
+    --outline-normal: var(--outline-width) var(--outline-style) var(--color-primary);
+    --outline-secondary: var(--outline-width) var(--outline-style) var(--color-secondary);
+}

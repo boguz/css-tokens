@@ -1,2 +1,14 @@
+@import url('./tokens/_animation.css');
+@import url('./tokens/_aspect-ratio.css');
+@import url('./tokens/_border-radius.css');
+@import url('./tokens/_border.css');
 @import url('./tokens/_color.css');
+@import url('./tokens/_font-family.css');
+@import url('./tokens/_font-size.css');
+@import url('./tokens/_gradients.css');
+@import url('./tokens/_letter-spacing.css');
+@import url('./tokens/_line-height.css');
+@import url('./tokens/_outline.css');
+@import url('./tokens/_shadow.css');
 @import url('./tokens/_space.css');
+@import url('./tokens/_z-index.css');

@@ -1,0 +1,11 @@
+:root,
+::before,
+::after {
+    --line-height-l: 2;
+    --line-height-m: 1.75;
+    --line-height-normal: 1.5;
+    --line-height-s: 1.25;
+    --line-height-xs: 1.125;
+    --line-height-1: 1;
+    --line-height-reset: normal;
+}

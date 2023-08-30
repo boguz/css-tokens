@@ -1,0 +1,11 @@
+:root,
+::before,
+::after {
+    --letter-spacing-xxl: .5em;
+    --letter-spacing-xl: .3em;
+    --letter-spacing-l: .150em;
+    --letter-spacing-m: .050em;
+    --letter-spacing-normal: normal;
+    --letter-spacing-s: -.025em;
+    --letter-spacing-xs: -.0125em;
+}

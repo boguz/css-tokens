@@ -1,0 +1,16 @@
+:root,
+::before,
+::after {
+    --z-index-background: 0;
+    --z-index-content: 1;
+    --z-index-inpage-navigation: 100;
+    --z-index-sticky-navigation: 200;
+    --z-index-topbar: 500;
+    --z-index-nav: 1000;
+    --z-index-notifications: 2000;
+    --z-index-backdrop: 3000;
+    --z-index-modal: 5000;
+    --z-index-consent: 10000;
+    --z-index-overlay: 50000;
+    --z-index-important: 2147483641;
+}

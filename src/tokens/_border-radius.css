@@ -1,0 +1,28 @@
+:root,
+::before,
+::after {
+    /*   BORDER RADIUS BASE   */
+    --border-radius-base: 1rem;
+
+    /*   BORDER RADUIS MODIFIERS   */
+    --border-radius-modifier-xxxl: 2;
+    --border-radius-modifier-xxl: 1.5;
+    --border-radius-modifier-xl: 1;
+    --border-radius-modifier-l: .75;
+    --border-radius-modifier-m: .5;
+    --border-radius-modifier-normal: .25;
+    --border-radius-modifier-s: .125;
+
+    /*   BORDER RADIUS VARIABLES   */
+    --border-radius-xxxl: calc(var(--border-radius-base) * var(--border-radius-modifier-xxxl));
+    --border-radius-xxl: calc(var(--border-radius-base) * var(--border-radius-modifier-xxl));
+    --border-radius-xl: calc(var(--border-radius-base) * var(--border-radius-modifier-xl));
+    --border-radius-l: calc(var(--border-radius-base) * var(--border-radius-modifier-l));
+    --border-radius-m: calc(var(--border-radius-base) * var(--border-radius-modifier-m));
+    --border-radius-normal: calc(var(--border-radius-base) * var(--border-radius-modifier-normal));
+    --border-radius-s: calc(var(--border-radius-base) * var(--border-radius-modifier-s));
+    --border-radius-xs: 2px;
+    --border-radius-xxs: 1px;
+    --border-radius-0: 0;
+    --border-radius-circle: 50%;
+}
