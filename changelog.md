@@ -5,7 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
-## [0.0.1] - 2023-08-23
+## [1.0.1] - 2023-09-14
+
+- Update README with correct name of package
+
+## [1.0.0] - 2023-08-23
 
 - 🌱 initial release
 

@@ -1,10 +1,10 @@
 {
-  "name": "css-tokens",
-  "version": "0.0.1",
-  "description": "A npm package offering a curated collection of CSS variables for effortless frontend development, enabling consistent design across UI components and swift global style adjustments",
-  "main": "index.js",
+  "name": "css-tokens-variables",
+  "version": "1.0.1",
+  "description": "CSS-Tokens is a curated collection of reusable CSS variables",
+  "main": "css-tokens-variables.css",
   "scripts": {
-    "build": "postcss src/css-tokens.css --dir dist"
+    "build": "postcss src/css-tokens-variables.css --dir dist"
   },
   "repository": {
     "type": "git",

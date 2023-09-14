@@ -12,12 +12,12 @@ Getting started with CSS-Tokens is straightforward:
 
 1. Use npm:
 ```bash
-npm install css-tokens
+npm install css-tokens-variables
 ```
 
 2. Use a CDN
 ```html
-<link rel="stylesheet" href="https://unpkg.com/css-tokens/dist/css-tokens.css">
+<link rel="stylesheet" href="https://unpkg.com/css-tokens/dist/css-tokens-variables.css">
 ```
 
 3. If you prefer manual integration, copy the variables from our [GitHub repository](https://github.com/boguz/css-tokens) and integrate them into your stylesheet.
@@ -28,11 +28,11 @@ Integrating CSS-Tokens into your project is simple:
 
 1.1 In your CSS, import the CSS Tokens by including:
 ```css
-@import 'css-tokens';
+@import 'css-tokens-variables';
 ```
 1.2 or add a link in your html with
 ```html
-<link rel="stylesheet" href="https://unpkg.com/css-tokens/dist/css-tokens.css">
+<link rel="stylesheet" href="https://unpkg.com/css-tokens/dist/css-tokens-variables.css">
 ```
 
 2. **Utilize Variables**: Harness the power of these variables by referencing them in your styles. For example, `color: var(--color-primary);`.
